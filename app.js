@@ -6,6 +6,7 @@ var LocalStrategy = require("passport-local");
 var passportLocalMongoose = require("passport-local-mongoose");
 var User = require("./models/user");
 //all the required npm packages ^, except 'User'
+//also requires ejs npm package 
 
 mongoose.connect("mongodb://localhost/authdemo"); //authdemo is the db name in mongodb
 
