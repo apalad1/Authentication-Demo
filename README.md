@@ -8,6 +8,7 @@ things used for it:
 
 - all of the following npm packages using "npm install <package name>" :
 express
+express-session
 mongoose
 passport
 body-parser
